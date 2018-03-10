@@ -1,0 +1,242 @@
+*{
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+	text-decoration: none;
+	font-weight: normal;
+}
+html{
+	font-family: '微软雅黑';
+	font-size: 62.5%;
+}
+.section{
+	background: url(../img/img1.jpg) no-repeat center;
+	background-size: cover;
+	max-width:750px;
+	margin: 0 auto;
+	position: relative;
+	overflow: hidden;
+}
+.section .whole{
+	height: 113.5rem;
+}
+.section .logo{
+	width: 100%;
+	text-align: center;
+	margin-top: 6rem;
+}
+.section .brand{
+	text-align: center;
+	margin-top: 5rem;
+}
+.timeline{
+	width: 26rem;
+	margin-top: 2rem;
+	margin-left: 50%;
+	border-left: 1px solid #fff;
+}
+.timeline ul li{
+	color: #b99c63;
+	padding-left: 4rem;
+	height: 10rem;
+	position: relative;
+}
+/* .timeline ul li div{
+	margin-left: 50px;
+} */
+.timeline ul li h2{
+	font-size: 2.4rem;
+}
+.timeline ul li h3{
+	font-size: 2.4rem;
+}
+.timeline ul li h4{
+	font-size: 2rem;
+}
+.timeline ul li i{
+	width: 2.5rem;
+    height: 2.5rem;
+	background: url(../img/img6.png) no-repeat;
+	position: absolute;
+	top: 0;
+	left: -1.25rem;
+}
+.timeline ul li:nth-child(even){
+	left: -26rem;
+}
+.timeline ul li:nth-child(even) i{
+	left: 24.75rem;
+}
+.arrow{
+	width: 6rem;
+	height: 6rem;
+	background: url(../img/img7.png) no-repeat;
+	position: absolute;
+	left: 50%;
+	bottom: 6rem;
+	margin-left: -3rem;
+	animation: bounce-up 1s infinite;
+	-webkit-animation: bounce-up 1s infinite;
+	transform:;
+}
+@-webkit-keyframes bounce-up {
+    25% {
+        -webkit-transform: translateY(1rem);
+    }
+    50%, 100% {
+        -webkit-transform: translateY(0);
+    }
+    75% {
+        -webkit-transform: translateY(-1rem);
+    }
+}
+
+@keyframes bounce-up {
+    25% {
+        transform: translateY(1rem);
+    }
+    50%, 100% {
+        transform: translateY(0);
+    }
+    75% {
+        transform: translateY(-1rem);
+    }
+}
+/*page2*/
+.section2 .lists{
+	width: 55rem;
+	margin-left: 8.75rem;
+	margin-top: 6rem;
+	overflow: hidden;
+}
+.section2 .lists ul li{
+ 	margin-left: 2.5rem; 
+	margin-top: 2rem;
+	float: left;
+}
+.section3 {
+	color: #fced9c;
+}
+.section3 .content{
+	margin-top: 6rem;
+	overflow: hidden;
+}
+.section3 .content-img{
+	float: left;
+	margin-left: 15rem;
+	margin-right:8.5rem;
+}
+.section3 .content-txt{
+	margin-top: 7.6rem;
+	font-size: 2.7rem;
+	line-height: 4.7rem;
+}
+.section3 .foot a{
+	font-size: 2.4rem;
+	color: #fced9c;
+	display: block;
+	width: 19rem;
+	line-height: 8rem;
+	border: 1px solid #fced9c;
+	text-align: center;
+	float: left;
+	margin-right: 5rem;
+}
+.section3 .foot .foot-bt{
+	overflow: hidden;
+	margin-left: 15.5rem;
+	margin-top: 10rem;
+}
+.section3 .foot .foot-txt p{
+	text-align: center;
+	font-size: 2rem;
+	margin-top: 4rem;
+}
+/* css3动画 */
+.active .animated1{
+	animation: fadeInRight 1s 1.5s both;
+	-webkit-animation: fadeInRight 1s 1.5s both;
+	-ms-animation: fadeInRight 1s 1.5s both;
+	-moz-animation: fadeInRight 1s 1.5s both;
+	-o-animation: fadeInRight 1s 1.5s both;
+}
+.active .animated2{
+	animation: fadeInLeft 1s 2.5s both;
+	-webkit-animation: fadeInLeft 1s 2.5s both;
+	-o-animation: fadeInLeft 1s 2.5s both;
+	-moz-animation: fadeInLeft 1s 2.5s both;
+	-ms-animation: fadeInLeft 1s 2.5s both;
+}
+.active .animated3{
+	animation: fadeInRight 1s 3.5s both;
+	-webkit-animation: fadeInRight 1s 3.5s both;
+	-moz-animation: fadeInRight 1s 3.5s both;
+	-ms-animation: fadeInRight 1s 3.5s both;
+	-o-animation: fadeInRight 1s 3.5s both;
+}
+.active .animated4{
+	animation: fadeInLeft 1s 4.5s both;
+	-webkit-animation: fadeInLeft 1s 4.5s both;
+	-moz-animation: fadeInLeft 1s 4.5s both;
+	-ms-animation: fadeInLeft 1s 4.5s both;
+	-o-animation: fadeInLeft 1s 4.5s both;
+}
+.active .animated5{
+	animation: fadeInRight 1s 5.5s both;
+	-webkit-animation: fadeInRight 1s 5.5s both;
+	-moz-animation: fadeInRight 1s 5.5s both;
+	-ms-animation: fadeInRight 1s 5.5s both;
+	-o-animation: fadeInRight 1s 5.5s both;
+}
+.active .logo{
+	animation: flash 1s both;
+	-webkit-animation: flash 1s both;
+	-moz-animation: flash 1s both;
+	-ms-animation: flash 1s both;
+	-o-animation: flash 1s both;
+}
+.active .brand{
+	animation: fadeIn 1s 1s both;	
+}
+.active .lists ul li:nth-child(1){
+	animation: fadeIn 0.5s 2s both;
+}
+.active .lists ul li:nth-child(2){
+	animation: fadeIn 0.5s 2.5s both;
+}
+.active .lists ul li:nth-child(3){
+	animation: fadeIn 0.5s 3s both;
+}
+.active .lists ul li:nth-child(4){
+	animation: fadeIn 0.5s 3.5s both;
+}
+.active .lists ul li:nth-child(5){
+	animation: fadeIn 0.5s 4s both;
+}
+.active .lists ul li:nth-child(6){
+	animation: fadeIn 0.5s 4.5s both;
+}
+.active .lists ul li:nth-child(7){
+	animation: fadeIn 0.5s 5s both;
+}
+.active .lists ul li:nth-child(8){
+	animation: fadeIn 0.5s 5.5s both;
+}
+.active .lists ul li:nth-child(9){
+	animation: fadeIn 0.5s 6s both;
+}
+.active .content-img{
+	animation: fadeInLeft 1s 1.5s both;
+}
+.active .content-txt{
+	animation: fadeInRight 1s 2s both;
+}
+.active .foot-lf{
+	animation: fadeInLeft 1s 2.5s both;
+}
+.active .foot-rg{
+	animation: fadeInRight 1s 3s both;
+}
+.active .foot-txt{
+	animation: fadeInUp 1s 3.5s both;
+}
